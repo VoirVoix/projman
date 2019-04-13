@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto');
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -60,3 +62,7 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+@import "themes/global";
+@import "themes/light";
+@import "themes/dark";
